@@ -17,14 +17,44 @@ body {
   padding: 5px 5px;
 }
 
-#wtbd-logo {
-  height: 25px;
-  margin-top: 4px;
+.navbar-toggle {
+  background-color: #000;
 }
 
+.navbar-inverse {
+  background-color: rgba(255, 255, 255, 0.50);
+}
+
+.navbar-inverse li {
+  background-color: rgba(0, 0, 0, 1);
+}
+#wtbd-logo {
+  height: 26px;
+  margin-top: 7px;
+}
+
+#getlouder {
+  text-align: center;
+}
+
+#subtitle {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.louder {
+  font-size: 120%;
+  font-weight: bold;
+}
 @media (min-width:768px) {
+  .navbar-inverse li {
+    background-color: rgba(255, 255, 255, 0);
+  }
   #home-promo {
-    margin-top: 160px;
+    margin-top: 110px;
+  }
+
+  #Stage {
+    margin-top: -10px !important;
   }
   #wtbd-logo {
     height: 40px;
